@@ -1,0 +1,158 @@
+img{	max-width: 100%;
+	display: block;
+}
+body{
+	font-family: cursive;
+	margin: 30px 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+#header{
+	width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid #dcc10b;
+    box-shadow: -10px -10px 10px #efe069;
+}
+header{
+	width: 100%;
+    float: left;
+    background: #e4cc50;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.logo{
+
+
+	    width: 25%;
+    float: left;
+    margin: 10 30 5;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+.logo img{}
+
+nav{
+	width: 75%;
+	padding: 40px;
+	
+
+}
+nav ul{margin: 0;
+padding: 0;
+margin-left: 15px;}
+
+nav ul li{list-style: none;}
+nav ul li a{
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+padding: 10px 10px;
+display: block;
+float: left;
+color: #1b0714;
+font-size: 18px;
+font-family: sans-serif;
+transition: all 1  ease;
+-webkit-transition: all 1  ease;
+-moz-transition: all 1  ease;
+}
+nav ul li a:hover{
+	background:rgb(101, 243, 44);
+	color: white;
+
+
+}
+.galleries{ 
+	margin top: 20px;
+	max-width: 100%;
+
+}
+.gallery{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	padding: 5px;
+
+
+}
+.gallery .img{
+
+}
+.gallery .caption{
+	padding: 10px 10px;
+    color: #f3eded;
+    background:#9a7d09;}
+
+
+.gallery.caption. h2{
+	color: #04000a;
+
+}
+.gallery.caption. p{
+   }
+   .gallery .caption a:hover{
+   	background: green;
+   	color:black;
+   }
+   .gallery .caption a{
+   	text-decoration: none;
+   	text-transform: uppercase;
+   	transition: all 0.4 ease;
+   	-webkit-transition: all 0.4 ease;
+   	-moz-transition: all 0.4 ease;
+   	color:#04000a;
+   	
+
+   }
+   footer{
+   background: white;
+width: 100%;
+overflow: hidden;
+padding: 10px;
+}
+
+.copyright{
+	width: 50%;
+	float: left;
+}
+.copyright p{
+	margin: 0px
+}
+.social{
+	width: 50%;
+	float: left;
+}
+.social ul{
+margin: 0px;
+padding: 0px;
+
+
+}
+.social ul li{
+	float: left;
+	list-style: none;
+
+	
+	
+
+}
+.social ul li a{
+	    text-decoration: none;
+    color: white;
+    background: green;
+    margin-right: 5px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    width: 29px;
+    transition: all 0.4 ease-in-out;
+   -webkit- transition: all 0.4 ease-in-out;
+    -moz-transition: all 0.4 ease-in-out;
+}
+.social ul li a:hover{
+	color: blue;
+	background: green;
+}
